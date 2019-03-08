@@ -1,0 +1,72 @@
+.top-header--transparent,
+.top-header--transparent i {
+  background-color: transparent;
+  color: black;
+}
+
+.profile .profile__header {
+  height: 80vh;
+  /* vh = view for height, 80%의 스크린이라는 뜻 */
+  background-image: url("https://happydance.snoopy.co.jp/assets/image/dancesnoopydance/book/book03.png");
+  background-position: center center;
+  background-size: 100%;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile__header .profile__header-container {
+  text-align: center;
+  position: relative;
+  /* relative = 상-하-좌-우 움직일 수 있게 해준다는 뜻 */
+  bottom: -60px;
+}
+
+.profile__header-container img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile__container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__container input {
+  padding: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #e3e1e1;
+}
+
+.profile__actions {
+  display: flex;
+}
+
+.profile__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+  /* cursor : not-allowed 커서가 누르지못하게 x로 바뀜 */
+}
+
+.profile__action-circle {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+.profile__action-title {
+  font-size: 12px;
+  font-weight: 600;
+}
